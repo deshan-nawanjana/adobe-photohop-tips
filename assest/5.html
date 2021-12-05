@@ -1,0 +1,190 @@
+﻿
+<head>
+<title>Layer Selection / Edit</title>
+<style>
+body {
+	background:url('PhCCImages1.jpg') no-repeat fixed center;
+}
+#page {
+	width:590px;
+	overflow-y:scroll;
+	float:right;
+	height:495px;
+}
+.body {
+	padding:20px;
+	background:#FFF;
+	width:559px;
+}
+.title {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:25px;
+	margin:10px 0px 0px 25px;
+}
+.about {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	margin:390px 0px 0px 25px;
+}
+#left {
+	float:left;
+}
+.link {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	text-align:center;
+	width:130px;
+	font-weight:bold;
+	line-height:41px;
+	height:41px;
+	selection:none;
+	cursor:pointer;
+	outline:none;
+	background:#transparent;
+	border:2px solid #FFF;
+	margin:0px 0px 15px 0px;
+}
+.link:hover {
+	border:0px solid #FFF;
+}
+a {text-decoration:none;color:#FFF;}
+li {font-family:"Source Sans Pro";}
+h3 {font-family:"Source Sans Pro";}
+p {font-family:"Source Sans Pro";}
+img {border:1px solid #222;margin:10px;}
+</style>
+</head>
+<div id="left">
+<div class="link" onclick="go('startup')">Back to Home</div>
+<a href="#1"><div class="link">Layer Selection</div></a>
+<a href="#2"><div class="link">Polygonal Tool</div></a>
+<a href="#3"><div class="link">Pen Tool</div></a>
+<a href="#4"><div class="link">Copy Selection</div></a>
+<a href="#5"><div class="link">Cut Selection</div></a>
+<a href="#6"><div class="link">Delete Selection</div></a>
+<a href="#7"><div class="link">Deselect</div></a>
+</div>
+<div id="page">
+<a name="#1"></a>
+<div class="body">
+
+
+
+
+<h3>1. Layer Selection</h3>
+<p aling="justify">
+ලේයරයෙන් කොටසක් Select කර එය වෙන් කර ගැනීමට හෝ Delete කිරීමට Marquee Tool, Polygonal Tool හෝ Pen Tool
+යොදා ගත හැක. පහතින් දැක්වෙන්නේ පිළීවෙලින් පහළට ඒවා ඇති ස්ථාන සහ කෙටි මං යතුරු.
+</p>
+<ol>
+<li>Marquee Tool - M
+<li>Polygonal Tool - L
+<li>Pen Tool - P
+</ol>
+<center><img src="5/1.png"></center>
+<p aling="justify">
+Marquee Tool මගින් චතුරස්‍ර හැඩයක් ලබා ගත හැකි අතර Polygonal Tool හා Pen Tool මගින් ඇඳීමෙන් අවශ්‍ය හැඩයක් ලබා ගත හැක.
+</p>
+<a name="#2"></a><br><h3>2. Polygonal Tool</h3>
+<p aling="justify">
+Polygonal Tool මගින් ඇඳීමේ දී ආරම්භ ස්ථානය නැවත යා කිරීමෙන් Select වීම සිදු වේ. එසේ නොමැතිනම්
+අවසන් කළ ස්ථානයේ මූසිකය Double Click කර විට  ආරම්භ ස්ථානය සමග යා වී Select වීම සිදු වේ.
+</p>
+<center><img src="5/2.png"></center>
+<center><img src="5/3.png"></center>
+
+
+<a name="#3"></a><br><h3>3. Pen Tool</h3>
+<p aling="justify">
+Pen Tool මගින් ඇඳීමට පෙර Pen Tool එක ගෙන Tool Mode එක Path ලෙස සකසන්න.
+</p>
+<center><img src="5/4.png"></center>
+
+<p aling="justify">
+මෙමගින් ඇඳීමේ දී වක්‍ර ආකාරයේ ඇඳීම් කළ හැක. 
+</p>
+<center><img src="5/5.png"></center>
+
+<p aling="justify">
+එමෙන්ම වක්‍රයක් ඇඳි පසු ඇඳීමේදී එය වක්‍ර වෙනාවන රේඛාවක් විය යුතුනම්
+පෙර ඇඳි තිත මත Alt යතුර තද කරගෙන Click කර වක්‍ර බව නැති කළ යුතුය.
+</p>
+<center><img src="5/6.png"></center>
+<center><img src="5/7.png"></center>
+<center><img src="5/8.png"></center>
+
+<p aling="justify">
+ඇඳගත් කොටස Selection එකක් කිරීම Pen Tool හිදී කළ යුතුය. මේ සඳහා Ctrl + Enter ඔබන්න.
+එමෙන්ම ආරම්භක හා අවසාන ස්ථාන යා වීම මෙහිදී සිදු වේ.
+</p>
+
+<center><img src="5/9.png"></center>
+<center><img src="5/10.png"></center>
+
+<a name="#4"></a><br><h3>4. Copy Selection</h3>
+<p aling="justify">
+ඇඳගත් කොටස පිටපත් කර ගැනීමට Ctrl + J ඔබන්න.
+මෙහිදී Layer Pallert එකේ තෝරා ඇති ලේයරය ගැන සැළකිළිමත් වන්න.
+මක් නිසාදයත් පිටපත් වීම සිදු වන්නේ තෝරා ඇති ලේයරයෙන් බැවිණි.
+</p>
+<center><img src="5/11.png"></center>
+
+<a name="#5"></a><br><h3>5. Cut Selection</h3>
+<p aling="justify">
+ඇඳගත් කොටස වෙන් කර ගැනීමට Ctrl + Shift + J ඔබන්න.
+මෙහිදී Layer Pallert එකේ තෝරා ඇති ලේයරය ගැන සැළකිළිමත් වන්න.
+මක් නිසාදයත් වෙන්වීම වීම සිදු වන්නේ තෝරා ඇති ලේයරයෙන් බැවිණි.
+</p>
+<center><img src="5/12.png"></center>
+
+<a name="#6"></a><br><h3>6. Delete Selection</h3>
+<p aling="justify">
+ඇඳගත් කොටස මකා දැමීමට යතුරු පුවරුවේ Delete යතුර ඔබන්න.
+මෙහිදී Layer Pallert එකේ තෝරා ඇති ලේයරය ගැන සැළකිළිමත් වන්න.
+එහි දී Delete විය යුතු ආකාරය වෙනස සැකසීමට කවුළුවක් ලැබේ.
+</p>
+<center><img src="5/13.png"></center>
+<p aling="justify">
+එහි Contents යන්න Background Color ලෙස තෝරා OK කිරීමෙන් පහත ලෙස මකා දැමේ.
+</p>
+<center><img src="5/14.png"></center>
+
+<a name="#7"></a><br><h3>7. Deselect</h3>
+<p aling="justify">
+Select වූ කොටසේ Path එක මැකීම සඳහා Ctrl + D ඔබන්න.
+</p>
+<center><img src="5/15.png"></center>
+<center><img src="5/16.png"></center>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function go(x) {location = x+'.html';}
+
+
+
+</script>

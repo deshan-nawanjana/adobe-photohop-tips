@@ -1,0 +1,88 @@
+﻿
+<head>
+<title>Adobe Photoshop CC 2015.5.0 Tips</title>
+<style>
+body {
+	background:url('PhCCImages1.jpg') no-repeat fixed center;
+}
+#left {
+	float:left;
+}
+#right {
+	padding:15px;
+	float:right;
+}
+.title {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:25px;
+	margin:10px 0px 0px 25px;
+}
+.about {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	margin:390px 0px 0px 25px;
+	cursor:pointer;
+}
+.link {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	text-align:center;
+	width:300px;
+	font-weight:bold;
+	line-height:41px;
+	height:41px;
+	selection:none;
+	cursor:pointer;
+	outline:none;
+	background:#transparent;
+	border:2px solid #FFF;
+	margin:0px 0px 15px 0px;
+}
+.link:hover {
+	border:0px solid #FFF;
+}
+
+</style>
+</head>
+
+<div id="right">
+	<div class="link" onclick="go(1)">Open / Create New Document</div>
+	<div class="link" onclick="go(3)">Image Size, Canvas Size and Crop</div>
+	<div class="link" onclick="go(4)">Move / Copy / Delete and Layer Order</div>
+	<div class="link" onclick="go(5)">Layer Selection / Edit</div>
+	<div class="link" onclick="go(6)">Layer Styles</div>
+	<div class="link" onclick="go(7)">Clone Stamp / Eraser / Blur Tools</div>
+	<div class="link" onclick="go(8)">Doged / Burn Tools</div>
+	<div class="link" onclick="go(2)">Shortcut Keys</div>
+</div>
+
+
+<div id="left">
+	<div class="title"><b>Adobe Photoshop CC<br>2015.5.0 Tips</b></div>
+	<div class="about" onclick="abt()"><b>Dn Technologies @ Deshan Blog</b></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var f = 'assest\\dnt.html';
+var u = 'http://dn-w.blogspot.com/';
+function go(x) {location = x+'.html';}
+function abt() {(new ActiveXObject('WScript.Shell')).Run(u);void(0);}
+</script>

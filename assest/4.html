@@ -1,0 +1,150 @@
+﻿
+<head>
+<title>Move / Copy / Delete and Layer Order</title>
+<style>
+body {
+	background:url('PhCCImages1.jpg') no-repeat fixed center;
+}
+#page {
+	width:590px;
+	overflow-y:scroll;
+	float:right;
+	height:495px;
+}
+.body {
+	padding:20px;
+	background:#FFF;
+	width:559px;
+}
+.title {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:25px;
+	margin:10px 0px 0px 25px;
+}
+.about {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	margin:390px 0px 0px 25px;
+}
+#left {
+	float:left;
+}
+.link {
+	color:#FFF;
+	font-family:"Source Sans Pro";
+	font-size:15px;
+	text-align:center;
+	width:130px;
+	font-weight:bold;
+	line-height:41px;
+	height:41px;
+	selection:none;
+	cursor:pointer;
+	outline:none;
+	background:#transparent;
+	border:2px solid #FFF;
+	margin:0px 0px 15px 0px;
+}
+.link:hover {
+	border:0px solid #FFF;
+}
+a {text-decoration:none;color:#FFF;}
+li {font-family:"Source Sans Pro";}
+h3 {font-family:"Source Sans Pro";}
+p {font-family:"Source Sans Pro";}
+img {border:1px solid #222;margin:10px;}
+</style>
+</head>
+<div id="left">
+<div class="link" onclick="go('startup')">Back to Home</div>
+<a href="#1"><div class="link">Move Layer</div></a>
+<a href="#2"><div class="link">Copy Layer</div></a>
+<a href="#3"><div class="link">Layers Order</div></a>
+<a href="#4"><div class="link">Hide Layers</div></a>
+<a href="#5"><div class="link">Delete Layers</div></a>
+</div>
+<div id="page">
+<a name="#1"></a>
+<div class="body">
+
+<h3>1. Move Layer</h3>
+<p aling="justify">
+Layers Move කිරීම සඳහා Move Tool එක ලබා ගත යුතුය. එය Tool Menu එකෙහි Move Tool ලෙස තිබේ.
+නැතිනම් යතුරු පුවරුවෙහි V යතුර ඔබා එය ලබා ගත හැක‍.
+</p>
+<center><img src="4/1.png"></center>
+<p aling="justify">
+ඉහලින් ඇති Auto Select යන්න සක්‍රීය විට මූසිකය මගින් තෝරන Layer එක පහසුවෙන් එහා මෙහා කළ හැක.
+</p>
+<center><img src="4/2.png"></center>
+<p aling="justify">
+එසේ නොමැති විට Layer කොටසෙහි අවශ්‍ය ලේයරය Select කර තිබිය යුතුය.
+</p>
+<center><img src="4/3.png"></center>
+
+
+<a name="#2"></a><br><h3>2. Copy Layer</h3>
+<p aling="justify">
+ලේයරයක් පිටපත් කර ගැනීමට Ctrl + J කෙටි මං යතුර භාවිතා කළ හැක. ඒවිට Select කර ඇති ලේයරයේ පිටපතක් ලැබේ.
+</p>
+<center><img src="4/4.png"></center>
+
+<a name="#3"></a><br><h3>3. Layers Order</h3>
+<p aling="justify">
+ඡායාරූපයේ Layers අනු පිළිවෙළ Layer Pallert එකෙන් බලා ගත හැක. අවශ්‍ය Layer එක මූසිකයෙන් අල්ලා ඉහළ පහළ කිරීමෙන් 
+අවශ්‍ය අනුපිළිවෙළ සැකසිය හැක.
+</p>
+<center><img src="4/5.png"></center>
+
+
+<p aling="justify">
+එමෙන්ම Select කර ඇති Layer එක ඉහළට ගෙන ඒමේ කෙටි මං යතුර Ctrl + ] වේ. 
+<br>
+Ctrl + Shift + ] මගින් අදාළ ලේයරය එක වරම ඉහළටම පැමිණේ.
+</p>
+<p aling="justify">
+Select කර ඇති Layer එක පහළට ගෙන යාමට කෙටි මං යතුර Ctrl + [ වේ. 
+<br>
+Ctrl + Shift + [ මගින් අදාළ ලේයරය එක වරම පහළටම යැවේ.
+</p>
+
+<a name="#4"></a><br><h3>4. Hide Layers</h3>
+<p aling="justify">
+අවශ්‍ය නොවන නමුත් පසුවට අවශ්‍ය වේ යැයි හැඟෙන ලේයර Hide කර තැබීමට 
+Layer Pallert එකෙහි අදාළ ලේයරය ඉදිරියෙන් ඇති ඇසක ලකුණ මත Click කරන්න.
+නැවත ඒ මත Click කළ විට සැඟවුණු ලේයරය නැවත ලබා ගත හැක.
+</p>
+<center><img src="4/6.png"></center>
+
+<a name="#5"></a><br><h3>5. Delete Layers</h3>
+<p aling="justify">
+Move Tool එක මගින් ලේයරය තෝරා යතුරු පුවරුවේ Delete යතුර එබීමෙන් Layer එක Delete කළ හැක.
+එසේ නැතිනම් Layer Pallert එකෙහි අදාළ ලේයරය Click කර යතුරු පුවරුවේ Delete යතුර එබීමෙන් ද Layer එක Delete වේ.
+</p>
+<center><img src="4/7.png"></center>
+<center><img src="4/8.png"></center>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function go(x) {location = x+'.html';}
+
+
+
+</script>
